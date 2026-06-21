@@ -1,0 +1,17 @@
+{
+  "name": "recell-mobile",
+  "version": "1.0.0",
+  "description": "ReCell Mobile - Buy & Sell Phones Marketplace",
+  "scripts": {
+    "postinstall": "cd client && npm install",
+    "dev": "concurrently \"node server/index.js\" \"cd client && npm run dev\""
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "concurrently": "^8.2.2",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.10",
+    "express": "^4.18.3",
+    "express-session": "^1.18.0"
+  }
+}
